@@ -77,3 +77,169 @@ ul li a {
   text-transform: uppercase;
   color: white;
 }
+
+hr {
+  width: 63.6%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.landing {
+  background: url(img/landing.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  margin: auto;
+  top: 0;
+}
+
+h2 {
+  font-family: 'Allerta Stencil', sans-serif;
+  text-decoration: underline;
+}
+
+.ourStory {
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ourStory p, .ourStory h2 {
+  text-indent: 3rem;
+}
+iframe {
+  margin: .5rem;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.23), 6px 6px 6px rgba(0,0,0,0.3);
+}
+
+.portion {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#music {
+  margin-top: 4rem;
+  background-image: url(img/creek.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  width: 63.6%;
+  border-radius: 5px;
+}
+
+#videos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour {
+  width: 63.6%;
+  background-image: url(img/forest.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 5px;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#tourDates {
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: bolder;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+footer ul {
+  padding-inline-start: 0;
+}
+
+h3 a , h3{
+  color: black;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+footer ul li a {
+  font-size: 200%;
+  color: black;
+}
+
+#footerTwo{
+  background:gray;
+  color: white;
+  padding-top: .8rem;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 1120px) {
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+  #logo {
+  font-size: 350%;
+  border-right: none;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 4vw;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 4rem;
+    vertical-align: middle;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .active {
+    background-color: black;
+    color: white;
+  }
+
+  header h1 {
+    font-size: 4vw;
+    margin-top: 0;
+  }
+
+  #videos iframe {
+  height: 25%;
+  width: 75%;
+  }
+
+}
